@@ -1,0 +1,152 @@
+{
+  "medicines": [
+    {
+      "id": 1,
+      "nom": "Paracétamol 500mg",
+      "categorie": "Antalgique",
+      "prix": 250,
+      "quantiteStock": 150,
+      "dateExpiration": "2025-12-31",
+      "description": "Médicament contre la douleur et la fièvre",
+      "fournisseur": "Pharma Burkina",
+      "seuilAlerte": 20
+    },
+    {
+      "id": 2,
+      "nom": "Amoxicilline 250mg",
+      "categorie": "Antibiotique",
+      "prix": 450,
+      "quantiteStock": 8,
+      "dateExpiration": "2025-08-15",
+      "description": "Antibiotique à large spectre",
+      "fournisseur": "MediCorp",
+      "seuilAlerte": 10
+    },
+    {
+      "id": 3,
+      "nom": "Aspirine 100mg",
+      "categorie": "Anti-inflammatoire",
+      "prix": 180,
+      "quantiteStock": 75,
+      "dateExpiration": "2026-03-20",
+      "description": "Anti-inflammatoire et antiagrégant plaquettaire",
+      "fournisseur": "Pharma Burkina",
+      "seuilAlerte": 15
+    },
+    {
+      "id": 4,
+      "nom": "Oméprazole 20mg",
+      "categorie": "Gastro-entérologie",
+      "prix": 320,
+      "quantiteStock": 5,
+      "dateExpiration": "2025-11-10",
+      "description": "Inhibiteur de la pompe à protons",
+      "fournisseur": "MediCorp",
+      "seuilAlerte": 10
+    },
+    {
+      "id": 5,
+      "nom": "Vitamine C 1000mg",
+      "categorie": "Vitamine",
+      "prix": 150,
+      "quantiteStock": 200,
+      "dateExpiration": "2026-06-30",
+      "description": "Complément vitaminique",
+      "fournisseur": "NutriPharma",
+      "seuilAlerte": 25
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "medicamentId": 1,
+      "medicamentNom": "Paracétamol 500mg",
+      "quantite": 2,
+      "prixUnitaire": 250,
+      "total": 500,
+      "dateVente": "2024-09-13T08:30:00.000Z",
+      "vendeur": "Marie Ouédraogo",
+      "client": "Patient anonyme"
+    },
+    {
+      "id": 2,
+      "medicamentId": 3,
+      "medicamentNom": "Aspirine 100mg",
+      "quantite": 1,
+      "prixUnitaire": 180,
+      "total": 180,
+      "dateVente": "2024-09-13T10:15:00.000Z",
+      "vendeur": "Jean Kaboré",
+      "client": "Mme Traoré"
+    },
+    {
+      "id": 3,
+      "medicamentId": 1,
+      "medicamentNom": "Paracétamol 500mg",
+      "quantite": 3,
+      "prixUnitaire": 250,
+      "total": 750,
+      "dateVente": "2024-09-13T14:20:00.000Z",
+      "vendeur": "Marie Ouédraogo",
+      "client": "M. Sawadogo"
+    },
+    {
+      "id": 4,
+      "medicamentId": 2,
+      "medicamentNom": "Amoxicilline 250mg",
+      "quantite": 1,
+      "prixUnitaire": 450,
+      "total": 450,
+      "dateVente": "2024-09-12T16:45:00.000Z",
+      "vendeur": "Jean Kaboré",
+      "client": "Enfant Compaoré"
+    },
+    {
+      "id": 5,
+      "medicamentId": 5,
+      "medicamentNom": "Vitamine C 1000mg",
+      "quantite": 2,
+      "prixUnitaire": 150,
+      "total": 300,
+      "dateVente": "2024-09-12T09:10:00.000Z",
+      "vendeur": "Marie Ouédraogo",
+      "client": "Mme Zongo"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@pharmatrack.bf",
+      "password": "admin123",
+      "role": "admin",
+      "nom": "Ouédraogo",
+      "prenom": "Marie",
+      "dateCreation": "2024-01-15T00:00:00.000Z",
+      "actif": true
+    },
+    {
+      "id": 2,
+      "username": "vendeur1",
+      "email": "jean@pharmatrack.bf",
+      "password": "vendeur123",
+      "role": "user",
+      "nom": "Kaboré",
+      "prenom": "Jean",
+      "dateCreation": "2024-02-01T00:00:00.000Z",
+      "actif": true
+    },
+    {
+      "id": 3,
+      "username": "vendeur2",
+      "email": "fatou@pharmatrack.bf",
+      "password": "vendeur123",
+      "role": "user",
+      "nom": "Traoré",
+      "prenom": "Fatou",
+      "dateCreation": "2024-02-15T00:00:00.000Z",
+      "actif": true
+    }
+  ]
+}
+
