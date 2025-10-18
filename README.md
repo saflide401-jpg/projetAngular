@@ -1,107 +1,107 @@
-# PharmaTrack - Système de Gestion Pharmaceutique
+ PharmaTrack - Système de Gestion Pharmaceutique
 
-![PharmaTrack Logo](https://img.shields.io/badge/PharmaTrack-v1.0-blue?style=for-the-badge&logo=angular)
+[PharmaTrack Logo](https://img.shields.io/badge/PharmaTrack-v1.0-blue?style=for-the-badge&logo=angular)
 
-## 📋 Description
+ Description
 
 PharmaTrack est une application web moderne développée avec Angular pour la gestion des pharmacies et dépôts pharmaceutiques au Burkina Faso. Elle permet de gérer efficacement les stocks de médicaments, les ventes quotidiennes, et de générer des alertes automatiques de rupture de stock.
 
-## 🎯 Objectifs
+Objectifs
 
-- **Gestion des stocks** : Suivi en temps réel des médicaments disponibles
-- **Ventes quotidiennes** : Enregistrement et suivi des transactions
-- **Alertes automatiques** : Notifications de rupture de stock
-- **Statistiques** : Tableaux de bord et rapports pour les gestionnaires
-- **Accessibilité** : Interface simple accessible depuis un navigateur
+- Gestion des stocks: Suivi en temps réel des médicaments disponibles
+- Ventes quotidiennes: Enregistrement et suivi des transactions
+- Alertes automatiques : Notifications de rupture de stock
+- Statistiques : Tableaux de bord et rapports pour les gestionnaires
+- Accessibilité: Interface simple accessible depuis un navigateur
 
-## 🌍 Contexte
+ Contexte
 
 Conçue spécifiquement pour les petites pharmacies et dépôts pharmaceutiques des zones rurales du Burkina Faso, cette application répond au besoin d'outils numériques simples et efficaces pour :
 - Éviter les ruptures de médicaments essentiels
 - Centraliser l'historique des ventes
 - Faciliter la gestion quotidienne des stocks
 
-## ✨ Fonctionnalités
+ Fonctionnalités
 
-### 🔐 Authentification
+      Authentification
 - Système de connexion sécurisé
 - Gestion des rôles (Administrateur / Vendeur)
 - Persistance des sessions
 - Guards de protection des routes
 
-### 💊 Gestion des Médicaments
+     Gestion des Médicaments
 - Liste complète des médicaments avec filtres
 - Ajout, modification, suppression (CRUD complet)
 - Alertes automatiques quand stock < seuil défini
 - Catégorisation et recherche avancée
 - Suivi des dates d'expiration
 
-### 🛒 Système de Ventes
+       Système de Ventes
 - Enregistrement rapide des ventes
 - Décrémentation automatique du stock
 - Calcul automatique des totaux
 - Historique complet des transactions
 - Statistiques de vente par période
 
-### 📊 Dashboard et Statistiques
+       Dashboard et Statistiques
 - Vue d'ensemble des médicaments en rupture
 - Chiffre d'affaires du jour en temps réel
 - Nombre de ventes quotidiennes
 - Graphiques des ventes par semaine/mois
 - Top des médicaments les plus vendus
 
-### 📱 Interface Utilisateur
+   Interface Utilisateur
 - Design responsive (mobile, tablette, desktop)
 - Interface intuitive adaptée au contexte local
 - Thème pharmaceutique avec couleurs appropriées
 - Navigation simplifiée selon les rôles
 
-## 🛠️ Technologies Utilisées
+     Technologies Utilisées
 
-### Frontend
-- **Angular 20** - Framework principal
-- **TypeScript** - Langage de développement
-- **Bootstrap 5** - Framework CSS responsive
-- **FontAwesome** - Icônes
-- **Chart.js** - Graphiques et visualisations
-- **RxJS** - Programmation réactive
+    Frontend
+- Angular 20 - Framework principal
+- TypeScript - Langage de développement
+- Bootstrap 5 - Framework CSS responsive
+- FontAwesome - Icônes
+- Chart.js - Graphiques et visualisations
+- RxJS - Programmation réactive
 
-### Backend (Mock)
-- **JSON Server** - API REST simulée
-- **Node.js** - Environnement d'exécution
+    Backend (Mock)
+- JSON Server - API REST simulée
+- Node.js - Environnement d'exécution
 
-### Outils de Développement
-- **Angular CLI** - Outils de développement
-- **npm** - Gestionnaire de packages
-- **Git** - Contrôle de version
+     Outils de Développement
+- Angular CLI - Outils de développement
+- npm - Gestionnaire de packages
+- Git - Contrôle de version
 
-## 📦 Installation et Configuration
+     Installation et Configuration
 
-### Prérequis
+      Prérequis
 - Node.js (version 18 ou supérieure)
 - npm (version 8 ou supérieure)
 - Git
 
-### Installation
+    Installation
 
-1. **Cloner le projet**
+1. Cloner le projet
    ```bash
    git clone <url-du-repository>
    cd pharma-track
    ```
 
-2. **Installer les dépendances**
+2. Installer les dépendances
    ```bash
    npm install
    ```
 
-3. **Configuration de l'API**
+3. Configuration de l'API
    - Le fichier `db.json` contient les données de démonstration
    - L'API mock utilise le port 3001 par défaut
 
-4. **Démarrer l'application**
+4. Démarrer l'application
    
-   **Option 1 : Démarrage complet (recommandé)**
+   Option 1 : Démarrage complet (recommandé)
    ```bash
    npm run dev
    ```
@@ -109,32 +109,32 @@ Conçue spécifiquement pour les petites pharmacies et dépôts pharmaceutiques 
    - L'API mock (port 3001)
    - L'application Angular (port 4200)
 
-   **Option 2 : Démarrage séparé**
+   Option 2 : Démarrage séparé
    ```bash
-   # Terminal 1 - API
+    Terminal 1 - API
    npm run api
    
-   # Terminal 2 - Frontend
+   Terminal 2 - Frontend
    npm start
    ```
 
-5. **Accéder à l'application**
+5. Accéder à l'application
    - URL : http://localhost:4200
    - API : http://localhost:3001
 
-## 👥 Comptes de Démonstration
+    Comptes de Démonstration
 
-### Administrateur
-- **Nom d'utilisateur** : `admin`
-- **Mot de passe** : `admin123`
-- **Privilèges** : Accès complet (gestion des médicaments, ventes, statistiques)
+     Administrateur
+- Nom d'utilisateur : `admin`
+- Mot de passe : `admin123`
+- Privilèges : Accès complet (gestion des médicaments, ventes, statistiques)
 
-### Vendeurs
-- **Vendeur 1** : `vendeur1` / `vendeur123`
-- **Vendeur 2** : `vendeur2` / `vendeur123`
-- **Privilèges** : Ventes et consultation des stocks
+  Vendeurs
+- Vendeur 1 : `vendeur1` / `vendeur123`
+- Vendeur 2 : `vendeur2` / `vendeur123`
+- Privilèges : Ventes et consultation des stocks
 
-## 📁 Structure du Projet
+    Structure du Projet
 
 ```
 pharma-track/
@@ -169,26 +169,26 @@ pharma-track/
 └── README.md                    # Documentation
 ```
 
-## 🔧 Scripts Disponibles
+ Scripts Disponibles
 
 ```bash
-# Développement
+ Développement
 npm start                # Démarrer Angular (port 4200)
 npm run api             # Démarrer l'API mock (port 3001)
 npm run dev             # Démarrer API + Angular simultanément
 
-# Build et déploiement
+  Build et déploiement
 npm run build           # Compiler pour la production
 npm run build:prod      # Build optimisé pour production
 
-# Tests et qualité
+  Tests et qualité
 npm test                # Lancer les tests unitaires
 npm run lint            # Vérifier la qualité du code
 ```
 
-## 🎨 Personnalisation
+        Personnalisation
 
-### Thème et Couleurs
+     Thème et Couleurs
 Les couleurs principales sont définies dans `src/styles.css` :
 ```css
 :root {
@@ -206,50 +206,50 @@ Pour changer l'URL de l'API, modifier les constantes dans les services :
 private readonly API_URL = 'http://localhost:3001/endpoint';
 ```
 
-## 📊 Données de Démonstration
+     Données de Démonstration
 
 Le fichier `db.json` contient :
-- **5 médicaments** avec stocks variés (certains en alerte)
-- **5 ventes** d'exemple avec historique
-- **3 utilisateurs** (1 admin + 2 vendeurs)
+- 5 médicaments avec stocks variés (certains en alerte)
+- 5 ventes d'exemple avec historique
+- 3 utilisateurs (1 admin + 2 vendeurs)
 
-### Médicaments Inclus
+      Médicaments Inclus
 1. Paracétamol 500mg (Stock: 150)
 2. Amoxicilline 250mg (Stock: 8 - ⚠️ Alerte)
 3. Aspirine 100mg (Stock: 75)
 4. Oméprazole 20mg (Stock: 5 - ⚠️ Alerte)
 5. Vitamine C 1000mg (Stock: 200)
 
-## 🚀 Déploiement
+  Déploiement
 
-### Développement Local
+   Développement Local
 L'application est prête à fonctionner localement avec les commandes d'installation ci-dessus.
 
-### Production
+   Production
 Pour un déploiement en production :
 
-1. **Build de production**
+1. Build de production
    ```bash
    npm run build
    ```
 
-2. **Serveur web**
+2. Serveur web
    - Servir les fichiers du dossier `dist/`
    - Configurer un vrai backend API
    - Implémenter une vraie authentification JWT
 
-3. **Base de données**
+3. Base de données
    - Remplacer JSON Server par une vraie base de données
    - Configurer les connexions sécurisées
 
-## 🔒 Sécurité
+     Sécurité
 
-### Authentification Actuelle (Démonstration)
+      Authentification Actuelle (Démonstration)
 - Tokens JWT simulés pour la démonstration
 - Validation côté client uniquement
 - Données stockées dans localStorage
 
-### Recommandations pour la Production
+      Recommandations pour la Production
 - Implémenter une vraie authentification JWT côté serveur
 - Utiliser HTTPS obligatoirement
 - Hacher les mots de passe avec bcrypt
@@ -257,33 +257,33 @@ Pour un déploiement en production :
 - Configurer CORS correctement
 - Utiliser des variables d'environnement pour les secrets
 
-## 🐛 Dépannage
+      Dépannage
 
-### Problèmes Courants
+      Problèmes Courants
 
-**Port déjà utilisé**
+      Port déjà utilisé
 ```bash
-# Changer le port Angular
+    Changer le port Angular
 ng serve --port 4201
 
-# Changer le port API
+   Changer le port API
 json-server --watch db.json --port 3002
 ```
 
-**Erreurs de compilation**
+   Erreurs de compilation
 ```bash
-# Nettoyer et réinstaller
+   Nettoyer et réinstaller
 rm -rf node_modules package-lock.json
 npm install
 ```
 
-**API non accessible**
+    API non accessible
 - Vérifier que json-server fonctionne sur le port 3001
 - Contrôler les URLs dans les services Angular
 
-## 📈 Évolutions Futures
+      Évolutions Futures
 
-### Fonctionnalités Prévues
+     Fonctionnalités Prévues
 - [ ] Gestion des fournisseurs
 - [ ] Commandes automatiques
 - [ ] Rapports PDF exportables
@@ -291,46 +291,47 @@ npm install
 - [ ] Mode hors ligne
 - [ ] Synchronisation multi-sites
 
-### Améliorations Techniques
+     Améliorations Techniques
 - [ ] Tests unitaires complets
 - [ ] Tests end-to-end
 - [ ] PWA (Progressive Web App)
 - [ ] Internationalisation (i18n)
 - [ ] Optimisation des performances
 
-## 🤝 Contribution
+       Contribution
 
-### Comment Contribuer
+     Comment Contribuer
 1. Fork le projet
 2. Créer une branche feature (`git checkout -b feature/nouvelle-fonctionnalite`)
 3. Commiter les changements (`git commit -m 'Ajout nouvelle fonctionnalité'`)
 4. Push vers la branche (`git push origin feature/nouvelle-fonctionnalite`)
 5. Ouvrir une Pull Request
 
-### Standards de Code
+    Standards de Code
 - Utiliser TypeScript strict
 - Suivre les conventions Angular
 - Documenter les fonctions importantes
 - Tester les nouvelles fonctionnalités
 
-## 📞 Support
+ Support
 
-### Ressources
-- **Documentation Angular** : https://angular.dev
-- **Bootstrap** : https://getbootstrap.com
-- **FontAwesome** : https://fontawesome.com
+      Ressources
+- Documentation Angular : https://angular.dev
+- Bootstrap : https://getbootstrap.com
+- FontAwesome : https://fontawesome.com
 
-### Contact
+    Contact
 Pour toute question ou suggestion concernant PharmaTrack, n'hésitez pas à ouvrir une issue sur le repository.
 
-## 📄 Licence
+     Licence
 
 Ce projet est développé dans un cadre éducatif et de démonstration. Voir le fichier LICENSE pour plus de détails.
 
 ---
 
-**PharmaTrack v1.0** - Système de Gestion Pharmaceutique pour le Burkina Faso  
-Développé avec ❤️ pour améliorer l'accès aux médicaments essentiels.
+PharmaTrack v1.0 - Système de Gestion Pharmaceutique pour le Burkina Faso  
+Développé  pour améliorer l'accès aux médicaments essentiels.
 
-#   p r o j e t A n g u l a r  
+  p r o j e t A n g u l a r 
+ 
  
